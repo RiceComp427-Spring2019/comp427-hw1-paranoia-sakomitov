@@ -11,9 +11,9 @@ and will be rendered to beautiful HTML when you visit your GitHub repo.
 ## Student Information
 Please also edit _README.md_ and replace your instructor's name and NetID with your own:
 
-_Student name_: Dan WALLACH
+_Student name_: Stoyan KOMITOV 
 
-_Student NetID_: dwallach
+_Student NetID_: sak7 
 
 Your NetID is typically your initials and a numeric digit. That's
 what we need here.
@@ -22,9 +22,11 @@ _If you contacted us in advance and we approved a late submission,
 please cut-and-paste the text from that email here._
 
 ## Problem 1
-- Scenario: {Stadium|TSA|Documents|Grading|G20}
+- Scenario: {Stadium|}
 - Assumptions:
-  - explain_your_assumptions
+  - I will select Clemson University's Memorial Stadium. It has capacity of 81,500.
+  - Memorial stadium has averaged a 100% attendance rate over the past five years.
+  -  
 - Assets:
   - explanatory_paragraph
   - explanatory_paragraph ...
