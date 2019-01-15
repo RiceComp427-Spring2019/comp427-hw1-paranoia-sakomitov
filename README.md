@@ -24,14 +24,22 @@ please cut-and-paste the text from that email here._
 ## Problem 1
 - Scenario: {Stadium|}
 - Assumptions:
-  - I will select Clemson University's Memorial Stadium. It has capacity of 81,500.
-  - Memorial stadium has averaged a 100% attendance rate over the past five years.
-  -  
+  - I will select Clemson University's Memorial Stadium. It has capacity of 81,500. Furthermore, it houses all of the football team offices and meeting rooms.
+  - Memorial stadium has averaged a 100% attendance rate over the past five years, so I will assume such attendance when considering assets, threats, and countermeasures.
 - Assets:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  - Howard's rock, the team's good luck charm is stored on the field. This asset cannot be assigned a monetary value, but it's priceless in terms of the team's traditions.
+  - Championship awards: Clemson holds multiple national, conference, and division titles, the trophies for which are on display on stadium grounds.
+  - Football team equipment: uniforms, exercise machines, etc.
+  - Since all the coaches have offices and prepare for games in the stadium, it is not out of the realm of possibilities that the team's set of plays is stored in the stadium. The strategic plays have led the team to success, so protecting their precise inner workings is of utmost importance.
+  - Communication systems. I will restrict this to the tools utilized on gameday to communicate between players and coaches.
+  - Fan base: the fans provide support to the team.
 - Threats:
-  - explanatory_paragraph 
+  - If someone were to steal Howard's rock, that would be a huge moral blow to the team.
+  - Similarly, stealing awards would be bad.
+  - Tampering with player equipment can lead to injury
+  - If information regarding the team's strategies is leaked, that could result in opponents having an unfair advantage, and therefore hurt the Clemson Tigers' performance.
+  - If the communication systems are compromised, opposing team could utilize this information to proactively defend against the Tigers' attempts to score/defend.
+  - Having 80,000+ people in a highly concentrated area could become a target of a malicious attack that can result in injuries and death.
   - explanatory_paragraph ...
 - Countermeasures:
   - explanatory_paragraph
