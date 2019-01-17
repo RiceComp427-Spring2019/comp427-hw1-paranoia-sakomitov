@@ -51,24 +51,24 @@ please cut-and-paste the text from that email here._
 ## Problem 2
 - Scenario: {Grading}
 - Assumptions:
-  - There are laws in place that protect student record privacy. For example, FERPA. 
-  - Grading is performed by hand, by a team of TAs (like in math classes at Rice).
-  - 
+  - There are laws in place that protect student record privacy. For example, FERPA. Thus, I am assuming that all individual grades must be kept confidential and that there are legal consequences if that isn't the case. 
+  - Grading is performed by hand, by a team of TAs (like in math classes at Rice). Each TA is responsible for a small portion of the overall class body.
+  - Assignments are pledged, so that every student is responsible for the work they submit, but they do have access to outside resources like the Internet.
 - Assets:
-  - Confidential scores 
-  - Problems and solutions that are meant to be kept in-house.
-  - explanatory_paragraph ...
+  - A full record of individual grades in a central bookkeeoping system, as well as scores written on submissions. 
+  - Problems and solutions that are meant to be kept in-house. It is in my interest to maintain a set of problems that can be reused in future course iterations, and since outside resources are permitted, I do not want these floating around. 
 - Threats:
-  - Losing someone's assignment is feasible given large number of submissions. This is problematic because it would potentially violate FERPA and there would be no way to distinguish loss from missing submission.
-  - A non-authorized individual viewing scores. This would be a violation of FERPA
+  - Losing someone's assignment. This is feasible given large number of submissions. It is problematic because it would potentially violate FERPA and there would be no way to distinguish a lost submission from one that was not submitted at all.
+  - An unauthorized individual viewing scores. This would be a violation of FERPA.
   - An individual leaks problems and solutions into public access.
   - A rogue TA intentionally mis-grades the assignments of his favorite students.
 - Countermeasures:
-  - Assignments are to be submitted where they will be graded.
-  - Submissions happen into a US mail-style box (where you can submit but can't easily retrieve submissions).
-  - Grading is done in grading parties to minimize movement of assignment papers (ala COMP midterm style). 
-  - Provide individuals with sligtly different versions of the same problems, whose characteristics serve as identifying clues. This way, potential perp can be identified.
-  - Ensure conflicts of interest are avoided by not having TAs grade the work of students they have known ties to. 
+  - Assignments are to be submitted where they will be graded. In this way, the movement of assignments and subsequent risk of loss is minimized. Futhermore, grades are immediately added to central record, AND onto submission to create redundancy if loss occurs.
+  - Submissions happen into a US mail-style box (where you can submit but can't easily retrieve submissions). Only I have access to this mailbox, and I am in charge of distributing submissions to TAs for grading. In this way, probability of unauthorized viewers is minimized.
+  - As an addititon to the above point, assignments are to be returned by graders directly to their submitters.
+  - Grading is done in grading parties to minimize movement of assignment papers, and to expedite the process (ala COMP midterm style). 
+  - Provide individuals with sligtly different versions of the same problems, whose characteristics serve as identifying clues. This measure accomplishes two things: even if collaboration were to occur, direct copying of solutions would not work; if someone leaks problems into public, then they can be identified based on problem clues.
+  - Ensure conflicts of interest are avoided by preventing TAs grading the work of students they have known ties to. 
 
 ## Problem 3
 - Scenario: I am designing the next big smart home assistant, Stoyana
