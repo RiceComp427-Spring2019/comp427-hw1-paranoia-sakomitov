@@ -24,8 +24,9 @@ please cut-and-paste the text from that email here._
 ## Problem 1
 - Scenario: {Stadium|}
 - Assumptions:
-  - I will select Clemson University's Memorial Stadium. It has capacity of 81,500. Furthermore, it houses all of the football team offices and meeting rooms.
+  - I will select Clemson University's Memorial Stadium. It has capacity of 81,500 seats. Furthermore, it houses all of the football team offices and meeting rooms.
   - Memorial stadium has averaged a 100% attendance rate over the past five years, so I will assume such attendance when considering assets, threats, and countermeasures.
+  - The team has nonphysical assets (e.g. play schemes) that are of particular value to the team.
 - Assets:
   - Howard's rock, the team's good luck charm is stored on the field. This asset cannot be assigned a monetary value, but it's priceless in terms of the team's traditions.
   - Championship awards: Clemson holds multiple national, conference, and division titles, the trophies for which are on display on stadium grounds.
@@ -34,17 +35,19 @@ please cut-and-paste the text from that email here._
   - Communication systems. I will restrict this to the tools utilized on gameday to communicate between players and coaches.
   - Fan base: the fans provide support to the team.
 - Threats:
-  - If someone were to steal Howard's rock, that would be a huge moral blow to the team.
-  - Similarly, stealing awards would be bad.
-  - Tampering with player equipment can lead to injury
+  - If someone were to steal or vandalize Howard's rock, that would be a huge moral blow to the team.
+  - Similarly, awards being stolen would be bad.
+  - Tampering with player equipment can lead to injury.
   - If information regarding the team's strategies is leaked, that could result in opponents having an unfair advantage, and therefore hurt the Clemson Tigers' performance.
-  - If the communication systems are compromised, opposing team could utilize this information to proactively defend against the Tigers' attempts to score/defend.
+  - If the communication systems are compromised, opposing team could utilize this information to defend against the Tigers' attempts to score/defend in game.
   - Having 80,000+ people in a highly concentrated area could become a target of a malicious attack that can result in injuries and death.
-  - explanatory_paragraph ...
 - Countermeasures:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
-
+  - Place Howard's rock in a protective glass case with an armed alarm to notify if tampering occurs.
+  - Designate a dedicated room to house awards in. Ensure awards are secured behind bulletproof glass, and have guards on rotation. Perform metal scans on visitors to room, and require identification to enter.
+  - Designate a locker for every player's equipment. Provide each player with a difficult-to-pick padlock. Lock locker room via a key players don't have access to .
+  - If there are digital records of the team's plays, fully encrypt stadium computers. Place strategic materials in an underground safe and establish a protocol for accessing them.
+  - In order to prevent eavesdropping on communication systems, take them off conventional radio waves, and instead set up a private encrypted wireless network restricted to the field.
+  - To prevent malicious attacks from visitors, install security checkpoints at every entrance at which visitors are screened for dangerous objects and substances.
 ## Problem 2
 - Scenario: {Stadium|TSA|Documents|Grading|G20}
 - Assumptions:
