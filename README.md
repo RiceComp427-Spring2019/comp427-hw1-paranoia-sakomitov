@@ -75,20 +75,17 @@ please cut-and-paste the text from that email here._
 - Assumptions:
   - Stoyana is an instant hit and has been adopted by 50M people.
   - Stoyana, much like Alexa or Cortana, has interactive capabilities, like answering verbal quesitons.
-  - Stoyana can be configured to control other smart devices around the user's home, like lights or locks.
+  - Users configure Stoyana to control other smart devices around the user's home, like lights or locks. Furthermore, they enable the "always listening for 'Hey Stoyana' que mode" to summon the device with more ease.
+  - Stoyana is very smart and learns from the user's habits.
 - Assets:
-  - Access to user voice input
-  - Access to user home devices
-  - Access to user preferences
+  - Access to stream of user voice input.
+  - Access to user home devices with privileges to make changes to their function.
+  - Access to user preferences and patterns related to their habits.
 - Threats:
-  - Attack to tap into microphone to listen in on conversations. Record. Download records
-  - Attack to affect aspects of home - unlock doors, drive up power consumption etc
-  - Download user data to profile them in malicious way or even worse- identify who they are
-  - explanatory_paragraph ...
+  - Malicious entities may want to tap into Stoyana's microphone stream in order to listen in on conversations of Stoyana's trusting users.
+  - There may be an attack whose intent is to change the aspects of the smart home. For example, if all smart appliances are turned on in their most power-demanding modes at once, that can maybe blow a fuse or even worse- cause a fire. Alternatively, it could compromise the restricted access to the house if smart locks are utilized.
+  - Download user data to profile them in malicious way
 - Countermeasures:
-  - Physical interruption on microphone circuitry
-  - get rid of smart devices 
-  - encrypt all user data that is transmitted. don't store identifying data like where user is going/has asked about going
-
-  - explanatory_paragraph ...
-
+  - It may not be a very elegant solution but I believe it's highly effective: introduce a button that physically closes the microphone circuitry to enable user voice input. This would make the product less appealing to those simply looking to yell orders questions across the room, but it provides a sure way to defend against unwanted listeners- if the microphonen is not connected, then it can't be tapped into. 
+  - Establish an encrypted data stream between Stoyana and any new smart device incorporated with the home assistant. My idea for this is to use a technology like NFC that requires close contact of the devices to exchange an encryption key, if the original user initiates the pairing between the devices. They would then communicate using this key to ensure the integrity of the messages against malicious middlemen.
+  - All communications between Stoyana and outside APIs must occur over secured pathways. Furthermore, Stoyana is to only store user profiles locally in order to prevent third parties from using data in the case of a data leak from a central repo.
