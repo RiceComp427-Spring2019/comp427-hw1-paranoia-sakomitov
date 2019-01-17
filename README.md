@@ -22,7 +22,7 @@ _If you contacted us in advance and we approved a late submission,
 please cut-and-paste the text from that email here._
 
 ## Problem 1
-- Scenario: {Stadium|}
+- Scenario: {Stadium}
 - Assumptions:
   - I will select Clemson University's Memorial Stadium. It has capacity of 81,500 seats. Furthermore, it houses all of the football team offices and meeting rooms.
   - Memorial stadium has averaged a 100% attendance rate over the past five years, so I will assume such attendance when considering assets, threats, and countermeasures.
@@ -49,18 +49,26 @@ please cut-and-paste the text from that email here._
   - In order to prevent eavesdropping on communication systems, take them off conventional radio waves, and instead set up a private encrypted wireless network restricted to the field.
   - To prevent malicious attacks from visitors, install security checkpoints at every entrance at which visitors are screened for dangerous objects and substances.
 ## Problem 2
-- Scenario: {Stadium|TSA|Documents|Grading|G20}
+- Scenario: {Grading}
 - Assumptions:
-  - explain_your_assumptions
+  - There are laws in place that protect student record privacy. For example, FERPA. 
+  - Grading is performed by hand, by a team of TAs (like in math classes at Rice).
+  - 
 - Assets:
-  - explanatory_paragraph
+  - Confidential scores 
+  - Problems and solutions that are meant to be kept in-house.
   - explanatory_paragraph ...
 - Threats:
-  - explanatory_paragraph 
-  - explanatory_paragraph ...
+  - Losing someone's assignment is feasible given large number of submissions. This is problematic because it would potentially violate FERPA and there would be no way to distinguish loss from missing submission.
+  - A non-authorized individual viewing scores. This would be a violation of FERPA
+  - An individual leaks problems and solutions into public access.
+  - A rogue TA intentionally mis-grades the assignments of his favorite students.
 - Countermeasures:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  - Assignments are to be submitted where they will be graded.
+  - Submissions happen into a US mail-style box (where you can submit but can't easily retrieve submissions).
+  - Grading is done in grading parties to minimize movement of assignment papers (ala COMP midterm style). 
+  - Provide individuals with sligtly different versions of the same problems, whose characteristics serve as identifying clues. This way, potential perp can be identified.
+  - Ensure conflicts of interest are avoided by not having TAs grade the work of students they have known ties to. 
 
 ## Problem 3
 - Scenario: Your choice (give a brief explanation)
