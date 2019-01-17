@@ -71,16 +71,24 @@ please cut-and-paste the text from that email here._
   - Ensure conflicts of interest are avoided by not having TAs grade the work of students they have known ties to. 
 
 ## Problem 3
-- Scenario: Your choice (give a brief explanation)
+- Scenario: I am designing the next big smart home assistant, Stoyana
 - Assumptions:
-  - explain_your_assumptions
+  - Stoyana is an instant hit and has been adopted by 50M people.
+  - Stoyana, much like Alexa or Cortana, has interactive capabilities, like answering verbal quesitons.
+  - Stoyana can be configured to control other smart devices around the user's home, like lights or locks.
 - Assets:
-  - explanatory_paragraph
-  - explanatory_paragraph ...
+  - Access to user voice input
+  - Access to user home devices
+  - Access to user preferences
 - Threats:
-  - explanatory_paragraph 
+  - Attack to tap into microphone to listen in on conversations. Record. Download records
+  - Attack to affect aspects of home - unlock doors, drive up power consumption etc
+  - Download user data to profile them in malicious way or even worse- identify who they are
   - explanatory_paragraph ...
 - Countermeasures:
-  - explanatory_paragraph
+  - Physical interruption on microphone circuitry
+  - get rid of smart devices 
+  - encrypt all user data that is transmitted. don't store identifying data like where user is going/has asked about going
+
   - explanatory_paragraph ...
 
